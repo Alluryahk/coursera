@@ -1,0 +1,92 @@
+body {
+	color: darkblue;
+	text-align: center;
+	font-size: 120%;
+	padding: 50px;
+	font-style: italic;
+	background-image: url("https://thumbs.dreamstime.com/b/empty-wood-table-top-blur-night-pub-restaurant-background-selective-focus-using-mock-up-template-craft-display-your-146982816.jpg");
+	/*background-image: url("https://thumbs.dreamstime.com/b/top-wooden-table-blurred-bar-restaurant-background-interior-49685987.jpg");
+	background-image: url("https://images.unsplash.com/photo-1552566626-52f8b828add9?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmVzdGF1cmFudHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80");
+	background-repeat: no-repeat;*/
+	background-size: 100%;
+}
+* {
+	box-sizing: border-box;
+	overflow: hidden;
+}
+body>div {
+	position: relative;
+	padding: 10px;
+	border-radius: 10px;
+	border-block-color: darkblue;
+	border-style: groove;	
+	margin: 1%;
+	font-size: 1.5em;
+	font-style: normal;
+}
+div>div {
+	position: relative;
+	padding: 20px;
+	text-align: left;
+}
+#Top {
+	position: relative;
+	padding: 50px;
+	font-size: 3em;
+	font-style: normal;
+}
+#chicken {
+	float: left;
+	background-color: darkgray;
+	text-align: right;
+	width: 30%;
+}
+#chickentext {
+	background-color: lightgray;
+}
+#beef {
+	float: left;
+	background-color: darkkhaki;
+	text-align: right;
+	width: 30%;
+}
+#beeftext {
+	background-color: lightcyan;
+}
+#sushi {
+	float: left;
+	background-color: darkorange;
+	text-align: right;
+	width: 30%;
+}
+#sushitext {
+	background-color: lightgoldenrodyellow;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+	#sushi {
+		clear: left;
+		width: 98%;
+	}
+	#beef {
+		width: 48%;
+	}
+	#chicken {
+		width: 48%;
+	}
+
+}
+@media(max-width: 767px) {
+	div {
+		clear: left;
+	}
+	#beef {
+		width: 98%;
+	}
+	#chicken {
+		width: 98%;
+	}
+	#sushi {
+		width: 98%;
+	}
+
+}
